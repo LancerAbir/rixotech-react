@@ -1,0 +1,18 @@
+.overlays__reviews__info {
+    display: flex;
+    align-items: center;
+  }
+  .overlays__reviews__info__icon {
+    border-radius: 50%;
+    margin-right: 0.35rem;
+  }
+  .overlays__reviews__info__name {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    margin-right: 0.5rem;
+  }
+  .overlays__reviews__info__info {
+    font-family: "Open Sans", sans-serif;
+    opacity: 0.65;
+    font-size: 0.85rem;
+  }

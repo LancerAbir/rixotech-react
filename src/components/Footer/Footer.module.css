@@ -1,0 +1,92 @@
+.footer{
+    padding-top: 2rem;
+} 
+.footer .container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+/* footer nav */
+.footer-nav{
+    padding-top: 2.5rem;
+}
+.fa-house {
+    font-size: 2.3rem;
+    color: var(--clr-third);
+}
+.logo-text {
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--clr-primary);
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.fa-twitter{
+    padding: 9px;
+    background-color: var(--clr-foruth);
+    color: var(--clr-primary);
+    border-radius: 8px;
+}
+.fa-twitter:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+.fa-facebook-f{
+    padding: 9px 13px;
+    background-color: var(--clr-foruth);
+    color: var(--clr-primary);
+    border-radius: 8px;
+}
+.fa-facebook-f:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+.fa-linkedin-in{
+    padding: 9px 13px;
+    background-color: var(--clr-foruth);
+    color: var(--clr-primary);
+    border-radius: 8px;
+}
+.fa-linkedin-in:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+.footer-icon{
+    padding-right: 17px;  
+}
+.footer-icons{
+    padding-top: 3rem;
+}
+
+/* .footer-menu */
+.footer-menu{
+    display: flex;
+    padding-top: 3rem;
+    justify-content: space-between;
+}
+.fm-list{
+    padding-bottom: 10px;
+}
+.fm-list a{
+    color: var(--clr-secondary);
+}
+/* last footer */
+.last-footer{
+    padding-top: 3rem;
+}
+.last-footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 0.5px solid #dcdcdd;
+}
+.ftr-text{
+    color: var(--clr-secondary);
+    padding-top: 2.5rem;
+}
+.ftr-bn{
+    padding-left: 10px;
+    color: var(--clr-secondary);
+}
+.ftr-btn{
+    padding-top: 2.5rem;
+}

@@ -1,0 +1,21 @@
+.overlays__stats__info {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .overlays__stats__info__icon {
+    border-radius: 50%;
+  }
+  .overlays__stats__info__content {
+    display: flex;
+    flex-direction: column;
+  }
+  .overlays__stats__info__content__name {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+  }
+  .overlays__stats__info__content__info {
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.85rem;
+    opacity: 0.65;
+  }

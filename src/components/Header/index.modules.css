@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.main_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main_header__container {
+  padding: 2rem 0;
+}
+.main_header__user_auth {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+

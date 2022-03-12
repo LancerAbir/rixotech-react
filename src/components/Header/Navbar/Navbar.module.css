@@ -1,0 +1,6 @@
+.main_header__navigation__list {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+  }

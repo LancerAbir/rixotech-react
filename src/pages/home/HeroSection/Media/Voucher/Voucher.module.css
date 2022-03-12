@@ -1,0 +1,29 @@
+.overlays__voucher {
+    left: 0;
+    top: 40%;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 5px;
+    padding: 0.75rem;
+  }
+
+  .overlays__voucher__icon {
+    border-radius: 50%;
+  }
+  .overlays__voucher__content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+  .overlays__voucher__content__name {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+  }
+  .overlays__voucher__content__info {
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.75rem;
+    opacity: 0.65;
+  }

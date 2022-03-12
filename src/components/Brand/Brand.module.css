@@ -1,0 +1,14 @@
+.main_header__brand {
+    display: flex;
+    flex-direction: column;
+  }
+  .main_header__brand__name {
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: 700;
+  }
+  .main_header__brand__info {
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #74c0e7;
+  }
